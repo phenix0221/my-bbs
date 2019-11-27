@@ -12,7 +12,7 @@ class LoginView(views.MethodView):
 
     @staticmethod
     def get():
-        return render_template('cms/cms_login.html')
+        return render_template('cms/login.html')
 
     def post(self):
         pass

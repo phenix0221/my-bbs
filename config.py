@@ -2,8 +2,8 @@ DEBUG = True
 
 DB_USERNAME = 'my_bbs'
 DB_PASSWORD = 'my_bbs'
-DB_HOST = '172.16.100.101'
-DB_PORT = '3306'
+DB_HOST = '127.0.0.1'
+DB_PORT = '23306'
 DB_NAME = 'my_bbs'
 
 DB_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(
